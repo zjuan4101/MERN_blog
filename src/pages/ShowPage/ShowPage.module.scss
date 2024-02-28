@@ -1,0 +1,52 @@
+.showPageContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #40798C;
+    margin-bottom: 20px;
+}
+
+.body {
+    font-size: 1.2rem;
+    color: #050401;
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.updateButton {
+    padding: 0.625rem 1.25rem;
+    background-color: #ACD8AA;
+    color: #050401;
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+
+    &:hover {
+        background-color: #8C5E58;
+        color: #FFFFFF;
+    }
+}
+
+.deleteButton {
+    padding: 0.625rem 1.25rem;
+    background-color: #FFB49A;
+    color: #050401;
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #E8833A;
+        color: #FFFFFF;
+    }
+}

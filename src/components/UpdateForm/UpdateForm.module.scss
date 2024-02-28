@@ -1,0 +1,39 @@
+.updateForm {
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    color: #40798C;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 1px solid #8C5E58;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+
+    &:focus {
+        outline: none;
+        border-color: #FFB49A;
+    }
+}
+
+.submitButton {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    background-color: #ACD8AA;
+    color: #050401;
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #8C5E58;
+        color: #FFFFFF;
+    }
+}
